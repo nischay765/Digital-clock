@@ -1,0 +1,44 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ffffaa;
+  letter-spacing: 2px;
+}
+.clock-container {
+  text-align: center;
+  padding: 40px;
+  border: 2px solid #38bdf8;
+  border-radius: 12px;
+  background-color: #1e293b;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+
+.time {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.date {
+  font-size: 24px;
+  color: #e2e8f0;
+}
